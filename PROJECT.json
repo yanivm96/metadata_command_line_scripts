@@ -1,0 +1,16 @@
+{
+  "study_id": "study.study_id",
+  "study_title": "study.study_title",
+  "study_type": "study.study_type.label",
+  "Study type ID": "study.study_type.id",
+  "study_description": "study.study_description",
+  "inclusion_exclusion_criteria": "study.inclusion_exclusion_criteria",
+  "grants": "study.grants",
+  "study_contact": "study.study_contact",
+  "collected_by": "study.collected_by",
+  "lab_name": "study.lab_name",
+  "lab_address": "study.lab_address",
+  "submitted_by": "study.submitted_by",
+  "pub_ids": "study.pub_ids",
+  "keywords_study": "study.keywords_study"
+}
