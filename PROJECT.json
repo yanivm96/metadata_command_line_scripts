@@ -1,8 +1,7 @@
 {
   "study_id": "study.study_id",
   "study_title": "study.study_title",
-  "study_type": "study.study_type.label",
-  "Study type ID": "study.study_type.id",
+  "study_type": "study.study_type",
   "study_description": "study.study_description",
   "inclusion_exclusion_criteria": "study.inclusion_exclusion_criteria",
   "grants": "study.grants",

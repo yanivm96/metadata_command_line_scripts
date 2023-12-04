@@ -1,20 +1,18 @@
-import argparse
 import airr
 import json
-import csv
 import ast
 
 from airr import load_rearrangement, dump_rearrangement, validate_rearrangement, validate_airr, read_airr
 
-METADATA_PATH = r'C:\Users\yaniv\Desktop\work\command_line_Scripts\PRJNA248411\project_metadata\metadata.json'
-BIOSAMPLE_PATH = r'C:\Users\yaniv\Desktop\work\command_line_Scripts\PRJNA248411\tsv_metadata\biosample.tsv'
-SRA_PATH = r'C:\Users\yaniv\Desktop\work\command_line_Scripts\PRJNA248411\tsv_metadata\sra.tsv'
-PROJECT_PATH = r'C:\Users\yaniv\Desktop\work\command_line_Scripts\PRJNA248411\tsv_metadata\project.tsv'
+METADATA_PATH = r'C:\Users\yaniv\Desktop\work\metadata_command_line_scripts\PRJNA248411\project_metadata\metadata.json'
+BIOSAMPLE_PATH = r'C:\Users\yaniv\Desktop\work\metadata_command_line_scripts\PRJNA248411\tsv_metadata\biosample.tsv'
+SRA_PATH = r'C:\Users\yaniv\Desktop\work\metadata_command_line_scripts\PRJNA248411\tsv_metadata\sra.tsv'
+PROJECT_PATH = r'C:\Users\yaniv\Desktop\work\metadata_command_line_scripts\PRJNA248411\tsv_metadata\project.tsv'
 
 
-BIOSAMPLE_JSON_FORMAT_PATH = r'C:\Users\yaniv\Desktop\work\command_line_Scripts\AIRR_BioSample_v1.0.json'
-SRA_JSON_FORMAT_PATH = r'C:\Users\yaniv\Desktop\work\command_line_Scripts\AIRR_SRA_v1.0.json'
-PROJECT_JSON_FORMAT_PATH = r'C:\Users\yaniv\Desktop\work\command_line_Scripts\PROJECT.json'
+BIOSAMPLE_JSON_FORMAT_PATH = r'C:\Users\yaniv\Desktop\work\metadata_command_line_scripts\AIRR_BioSample_v1.0.json'
+SRA_JSON_FORMAT_PATH = r'C:\Users\yaniv\Desktop\work\metadata_command_line_scripts\AIRR_SRA_v1.0.json'
+PROJECT_JSON_FORMAT_PATH = r'C:\Users\yaniv\Desktop\work\metadata_command_line_scripts\PROJECT.json'
 
 
 
